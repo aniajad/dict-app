@@ -5,11 +5,11 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>Dictionary</header>
+        <header className="App-header">Dictionary</header>
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Anna Jadczyszyn</footer>
+        <footer className="App-footer">Coded by Anna Jadczyszyn</footer>
       </div>
     </div>
   );
