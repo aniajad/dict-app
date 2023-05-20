@@ -12,7 +12,10 @@ export default function Meaning(props) {
     <div className="Meaning">
       <h4>{props.meaning.partOfSpeech}</h4>
       <p>{props.meaning.definition}</p>
-      <p className="example">Example: {props.meaning.example}</p>
+      {props.meaning.example && (
+        <p className="example">Example: {props.meaning.example}</p>
+      )}
+      {!props.meaning.example && <div>No examples found</div>}
       {synonyms && <span>Similar: {synonyms}</span>}
       {!synonyms && <div>No synonyms found</div>}
     </div>
