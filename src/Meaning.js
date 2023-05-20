@@ -18,6 +18,7 @@ export default function Meaning(props) {
       {!props.meaning.example && <div>No examples found</div>}
       {synonyms && <span>Similar: {synonyms}</span>}
       {!synonyms && <div>No synonyms found</div>}
+      <div className="Meaning-separator"></div>
     </div>
   );
 }
