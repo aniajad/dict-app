@@ -1,8 +1,19 @@
 .App-header {
   font-size: 76px;
-  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
 }
 
 .App-footer {
   margin-top: 20px;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.App-container {
+  text-align: left;
 }

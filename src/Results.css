@@ -1,7 +1,12 @@
 .results-h1 {
   color: #ff914d;
   font-size: 76px;
+  margin-bottom: 10px;
 }
 .results-h2 {
   font-weight: 100;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: left;
 }
