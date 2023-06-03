@@ -1,7 +1,8 @@
 .results-h1 {
   color: #ff914d;
   font-size: 76px;
-  margin: 20px 10px;
+  margin: 10px 10px;
+  line-height: 1;
 }
 .results-h2 {
   font-weight: 100;
