@@ -9,7 +9,11 @@ export default function Images(props) {
           {props.image.map(function (image, index) {
             return (
               <div className="col-md-3" key={index}>
-                <a href={image.src.original} target="_blank" rel="norefferal">
+                <a
+                  href={image.src.original}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={image.src.portrait}
                     className="img-fluid rounded"
